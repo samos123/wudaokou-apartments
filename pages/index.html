@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="jumbotron">
+  <div class="container">
+    <h1>Apartments for rent in Wudaokou</h1>
+    <p>Tired of seeing fake pictures? Crappy apartments? Squating toilets? Dodgy agencies?<br/>
+    I'm there to help you find in an apartment in Wudakou with less stress taking less time and less money.</p>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+
+    <div class="col-md-6">
+      <h2>About me</h2>
+      <p>I'm Sam Stoelinga, 25 years old(<a href="https://cn.linkedin.com/in/samstoelinga" target="_blank">LinkedIn</a>, 
+      <a href="https://www.facebook.com/samosx" target="_blank">Facebook</a>, 
+      <a href="https://github.com/samos123/" target="_blank">GitHub</a>), from the Netherlands.
+      Master student in Software Engineering at Tsinghua University. Been living around Wudaokou area for 5 years. 
+      <br/>Read more: <a href="{% url '/about.html' %}">About Me</a></p>
+    </div>
+
+    <div class="col-md-6">
+      <h2>Safe, verified and real</h2>
+      <p></p>
+    </div>
+
+
+  </div>
+
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Latest apartments</h2>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>...</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+{% endblock %}
